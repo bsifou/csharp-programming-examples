@@ -4,9 +4,9 @@ class CastDemo
 {
     static void Main()
     {
-        int i = 3, j = 2;
+        float i = 3, j = 2;
         float fraction;
-        fraction = (float)i / (float)j;
+        fraction = (int) i / (int)j;
         Console.WriteLine("fraction : " + fraction);
     }
 }
