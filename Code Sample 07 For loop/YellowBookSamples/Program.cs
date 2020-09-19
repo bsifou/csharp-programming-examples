@@ -5,10 +5,13 @@ class ForLoop
     public static void Main()
     {
         int i;
-        for (i = 1; i < 11; i = i + 1)
+        // string str = "strre";
+        for (int i = 1; i < 11; i = i + 1)
         {
-            Console.WriteLine("Hello mum");
+            Console.WriteLine($"i {i}");
         }
+        
+        Console.WriteLine($"finished loop with i:{i}");
     }
 }
 
